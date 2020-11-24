@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\androidprojects\\already project\\New folder\\Daleel_Al_Jahra\\Daleel_Al_Jahra\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\fc7e715eb6ead2a2478d0467293700e0\\jetified-SpaceNavigationView-1.6.0\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\99af9eb47e433e635dc4f31a7bf81ffd\\jetified-crystalrangeseekbar-1.1.3\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,156,200",
+                        "endColumns": "50,49,43,42",
+                        "endOffsets": "101,151,195,238"
+                    },
+                    "to": {
+                        "startLines": "3,4,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "103,154,553,597",
+                        "endColumns": "50,49,43,42",
+                        "endOffsets": "149,199,592,635"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\8ae329bc2060ff8cf929bbc665de8dab\\jetified-Android-SwitchDateTimePicker-1.9\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,108,165,217,273,323",
+                        "endColumns": "52,56,51,55,49,48",
+                        "endOffsets": "103,160,212,268,318,367"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,14,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "204,257,314,366,640,739",
+                        "endColumns": "52,56,51,55,49,48",
+                        "endOffsets": "252,309,361,417,685,783"
+                    }
+                },
+                {
+                    "source": "D:\\androidprojects\\already project\\New folder\\Daleel_Al_Jahra\\Daleel_Al_Jahra\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,5,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "101,199,57,149",
+                        "endColumns": "46,40,42,48",
+                        "endOffsets": "143,235,95,193"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "422,469,510,690",
+                        "endColumns": "46,40,42,48",
+                        "endOffsets": "464,505,548,734"
+                    }
+                }
+            ]
+        }
+    ]
+}

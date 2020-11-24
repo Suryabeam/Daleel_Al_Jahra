@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\androidprojects\\already project\\New folder\\Daleel_Al_Jahra\\Daleel_Al_Jahra\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\8ae329bc2060ff8cf929bbc665de8dab\\jetified-Android-SwitchDateTimePicker-1.9\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,165,217,273,318,368",
+                        "endColumns": "52,56,51,55,44,49,48",
+                        "endOffsets": "103,160,212,268,313,363,412"
+                    }
+                }
+            ]
+        }
+    ]
+}

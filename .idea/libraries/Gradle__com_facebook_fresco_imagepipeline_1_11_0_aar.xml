@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:imagepipeline:1.11.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72f034cf517727acc879c9f1a11a64ed/jetified-imagepipeline-1.11.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e460b763eb02aa2c1c894a560fbbcfb/jetified-imagepipeline-1.11.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b26e7651075fa611cbc6faf61f3949bc/jetified-imagepipeline-1.11.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72f034cf517727acc879c9f1a11a64ed/jetified-imagepipeline-1.11.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72f034cf517727acc879c9f1a11a64ed/jetified-imagepipeline-1.11.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/72f034cf517727acc879c9f1a11a64ed/jetified-imagepipeline-1.11.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e460b763eb02aa2c1c894a560fbbcfb/jetified-imagepipeline-1.11.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e460b763eb02aa2c1c894a560fbbcfb/jetified-imagepipeline-1.11.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e460b763eb02aa2c1c894a560fbbcfb/jetified-imagepipeline-1.11.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/1.11.0/e0d5517a179d895cde6014b59a8758b2a54ae4b8/imagepipeline-1.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline/1.11.0/6a5228f448ddd6facae0461a9fe1e863221cf69f/imagepipeline-1.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

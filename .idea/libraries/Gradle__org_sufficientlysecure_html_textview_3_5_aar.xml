@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: org.sufficientlysecure:html-textview:3.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d56179112ceb79783bda8c79dbc20bfe/jetified-html-textview-3.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbf70a9dd9129babc3cd0c7191732b0b/jetified-html-textview-3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbf70a9dd9129babc3cd0c7191732b0b/jetified-html-textview-3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbf70a9dd9129babc3cd0c7191732b0b/jetified-html-textview-3.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3b10c483ea881aae15173d1eb788d42/jetified-html-textview-3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3b10c483ea881aae15173d1eb788d42/jetified-html-textview-3.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3b10c483ea881aae15173d1eb788d42/jetified-html-textview-3.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sufficientlysecure/html-textview/3.5/da1f21aaa2fd4cb8457d9f9a733efe3e37a6bf7/html-textview-3.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sufficientlysecure/html-textview/3.5/fc8d16a44fc1245a4b6fff5bfb3b59137d7193ef/html-textview-3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

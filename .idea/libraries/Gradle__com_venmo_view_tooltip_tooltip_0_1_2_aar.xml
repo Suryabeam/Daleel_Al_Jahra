@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.venmo.view.tooltip:tooltip:0.1.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/922809a3b830eefa116b0f8e6589a956/jetified-tooltip-0.1.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58b18559015a84bb2f824b47a12a064c/jetified-tooltip-0.1.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/922809a3b830eefa116b0f8e6589a956/jetified-tooltip-0.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/922809a3b830eefa116b0f8e6589a956/jetified-tooltip-0.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/922809a3b830eefa116b0f8e6589a956/jetified-tooltip-0.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58b18559015a84bb2f824b47a12a064c/jetified-tooltip-0.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58b18559015a84bb2f824b47a12a064c/jetified-tooltip-0.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58b18559015a84bb2f824b47a12a064c/jetified-tooltip-0.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.venmo.view.tooltip/tooltip/0.1.2/cff279c7ce6e8417d7693464da15cf3ccdb4e868/tooltip-0.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.venmo.view.tooltip/tooltip/0.1.2/d5d7ab230ce1ffa9aa81cb41ac432102a165f88e/tooltip-0.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

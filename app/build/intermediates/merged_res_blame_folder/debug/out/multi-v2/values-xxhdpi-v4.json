@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\androidprojects\\already project\\New folder\\Daleel_Al_Jahra\\Daleel_Al_Jahra\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\fc7e715eb6ead2a2478d0467293700e0\\jetified-SpaceNavigationView-1.6.0\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\99af9eb47e433e635dc4f31a7bf81ffd\\jetified-crystalrangeseekbar-1.1.3\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,156,200",
+                        "endColumns": "50,49,43,42",
+                        "endOffsets": "101,151,195,238"
+                    },
+                    "to": {
+                        "startLines": "3,4,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "103,154,336,380",
+                        "endColumns": "50,49,43,42",
+                        "endOffsets": "149,199,375,418"
+                    }
+                },
+                {
+                    "source": "D:\\androidprojects\\already project\\New folder\\Daleel_Al_Jahra\\Daleel_Al_Jahra\\app\\src\\main\\res\\values-xxhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,5,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "101,200,57,150",
+                        "endColumns": "47,40,42,48",
+                        "endOffsets": "144,236,95,194"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "204,252,293,423",
+                        "endColumns": "47,40,42,48",
+                        "endOffsets": "247,288,331,467"
+                    }
+                }
+            ]
+        }
+    ]
+}

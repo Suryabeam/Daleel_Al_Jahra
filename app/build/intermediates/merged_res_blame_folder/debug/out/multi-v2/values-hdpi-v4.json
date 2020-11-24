@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\androidprojects\\already project\\New folder\\Daleel_Al_Jahra\\Daleel_Al_Jahra\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\ad525ede16da6824b142e21592f4b575\\appcompat-1.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "673",
+                        "endLines": "18",
+                        "endColumns": "13",
+                        "endOffsets": "945"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\fc7e715eb6ead2a2478d0467293700e0\\jetified-SpaceNavigationView-1.6.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mr Code\\.gradle\\caches\\transforms-2\\files-2.1\\8ae329bc2060ff8cf929bbc665de8dab\\jetified-Android-SwitchDateTimePicker-1.9\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,165,217,273,329,376,421,471,518,576",
+                        "endColumns": "52,56,51,55,55,46,44,49,46,57,48",
+                        "endOffsets": "103,160,212,268,324,371,416,466,513,571,620"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "103,156,213,265,321,377,424,469,519,566,624",
+                        "endColumns": "52,56,51,55,55,46,44,49,46,57,48",
+                        "endOffsets": "151,208,260,316,372,419,464,514,561,619,668"
+                    }
+                }
+            ]
+        }
+    ]
+}

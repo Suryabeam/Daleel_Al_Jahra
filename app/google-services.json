@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1024034772143",
+    "firebase_url": "https://dalil-al-jahra-274c7.firebaseio.com",
+    "project_id": "dalil-al-jahra-274c7",
+    "storage_bucket": "dalil-al-jahra-274c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024034772143:android:d9eabd133ffe6673b3305a",
+        "android_client_info": {
+          "package_name": "com.daleelpackage.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024034772143-nkfstk3rjfthmlsbd9lpilkmk86gcsj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daleelpackage.myapp",
+            "certificate_hash": "58b7305c6514c9395621bc55a3444c1899be7a07"
+          }
+        },
+        {
+          "client_id": "1024034772143-l7sgfgpmi12ij0iat6uphfombcj64599.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daleelpackage.myapp",
+            "certificate_hash": "63799ce282995bc6d471c4d040fae139d20ffe74"
+          }
+        },
+        {
+          "client_id": "1024034772143-uusemrtshkqate18svj2h7e741g5dvs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe9Y9ajcXSjus__V9wpWK2fxq7-B0qM-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024034772143-uusemrtshkqate18svj2h7e741g5dvs9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.codemybrainsout.onboarding:onboarder:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/868dc80dddd5983b11bbb7f927eeec1e/jetified-onboarder-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/868dc80dddd5983b11bbb7f927eeec1e/jetified-onboarder-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/868dc80dddd5983b11bbb7f927eeec1e/jetified-onboarder-1.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da26a783ec4ed542188c86b4b563e442/jetified-onboarder-1.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da26a783ec4ed542188c86b4b563e442/jetified-onboarder-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da26a783ec4ed542188c86b4b563e442/jetified-onboarder-1.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codemybrainsout.onboarding/onboarder/1.0.4/d598da00b089cec78bc7ccb68335d32cffc6a39f/onboarder-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codemybrainsout.onboarding/onboarder/1.0.4/8752e3dd3e6d2a9f65feba7ecfcd1b8976f901d0/onboarder-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

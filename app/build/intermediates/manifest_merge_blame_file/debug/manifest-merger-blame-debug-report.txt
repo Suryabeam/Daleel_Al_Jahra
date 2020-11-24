@@ -1,0 +1,1038 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.daleelpackage.myapp"
+4    android:versionCode="40"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:6:5-70
+8        android:minSdkVersion="17"
+8-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:6:5-70
+9        android:targetSdkVersion="30" />
+9-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:6:5-70
+10    <!-- for card.io card scanning -->
+11    <uses-feature
+11-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:8:5-10:36
+12        android:name="android.hardware.camera"
+12-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:9:9-47
+13        android:required="false" />
+13-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:10:9-33
+14    <uses-feature
+14-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:11:5-13:36
+15        android:name="android.hardware.camera.autofocus"
+15-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:12:9-57
+16        android:required="false" />
+16-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:13:9-33
+17
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:15:5-66
+18-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:15:22-63
+19    <uses-permission android:name="com.android.vending.BILLING" />
+19-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:16:5-67
+19-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:16:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:17:5-65
+20-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:17:22-62
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:18:5-67
+21-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:18:22-64
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:19:5-79
+22-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:19:22-76
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:20:5-80
+23-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:20:22-77
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:21:5-76
+24-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:21:22-73
+25    <uses-permission android:name="android.permission.CALL_PHONE" />
+25-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:22:5-69
+25-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:22:22-66
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:23:5-79
+26-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:23:22-76
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:24:5-81
+27-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:24:22-78
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:25:5-75
+28-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:25:22-72
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:26:5-81
+29-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:26:22-78
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\702eb74fc33138c281c3edef705bb0e6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\702eb74fc33138c281c3edef705bb0e6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+33        android:required="true" /> <!-- Optional permission for Analytics to run. -->
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\702eb74fc33138c281c3edef705bb0e6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:27:5-68
+34-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:27:22-65
+35
+36    <uses-feature
+36-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b49bf763ca2a89034630a175c9b06a7e\jetified-mapbox-android-sdk-8.4.0\AndroidManifest.xml:12:5-14:36
+37        android:name="android.hardware.wifi"
+37-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b49bf763ca2a89034630a175c9b06a7e\jetified-mapbox-android-sdk-8.4.0\AndroidManifest.xml:13:9-45
+38        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b49bf763ca2a89034630a175c9b06a7e\jetified-mapbox-android-sdk-8.4.0\AndroidManifest.xml:14:9-33
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:26:5-82
+39-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:26:22-79
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
+41
+42    <application
+42-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:28:5-257:19
+43        android:name="com.daleelpackage.myapp.App"
+43-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:29:9-28
+44        android:allowBackup="true"
+44-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:30:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.5.0-alpha05] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\882ff7283d84ab9279c8c0d552eeaa1e\core-1.5.0-alpha05\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:31:9-43
+48        android:label="@string/app_name"
+48-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:32:9-41
+49        android:largeHeap="true"
+49-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:33:9-33
+50        android:requestLegacyExternalStorage="true"
+50-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:34:9-52
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:35:9-54
+52        android:screenOrientation="portrait"
+52-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:36:9-45
+53        android:supportsRtl="true"
+53-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:37:9-35
+54        android:theme="@style/AppTheme"
+54-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:38:9-40
+55        android:usesCleartextTraffic="true" >
+55-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:39:9-44
+56        <activity android:name="com.daleelpackage.myapp.packages.AuthorizeNet" />
+56-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:40:9-59
+56-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:40:19-56
+57        <activity android:name="com.daleelpackage.myapp.LinkedIn.LinkedInAuthenticationActivity" />
+57-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:41:9-77
+57-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:41:19-74
+58        <activity
+58-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:42:9-44:59
+59            android:name="com.daleelpackage.myapp.packages.WorldPayIntegration"
+59-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:43:13-57
+60            android:theme="@style/AppTheme.NoActionBar" />
+60-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:44:13-56
+61        <activity android:name="com.daleelpackage.myapp.packages.PayHereIntegration" />
+61-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:45:9-65
+61-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:45:19-62
+62        <activity
+62-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:46:9-48:59
+63            android:name="com.daleelpackage.myapp.packages.PayStack"
+63-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:47:13-46
+64            android:theme="@style/AppTheme.NoActionBar" />
+64-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:48:13-56
+65        <activity
+65-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:49:9-53:55
+66            android:name="com.daleelpackage.myapp.home.ChooseLanguageActivity"
+66-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:50:13-56
+67            android:screenOrientation="nosensor"
+67-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:51:13-49
+68            android:theme="@style/AppTheme.NoActionBar"
+68-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:52:13-56
+69            android:windowSoftInputMode="adjustPan" />
+69-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:53:13-52
+70        <activity
+70-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:54:9-62:20
+71            android:name="com.daleelpackage.myapp.SplashScreen"
+71-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:55:13-41
+72            android:screenOrientation="nosensor" >
+72-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:56:13-49
+73            <intent-filter>
+73-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:57:13-61:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:58:17-69
+74-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:58:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:60:17-77
+76-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:60:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:63:9-65:52
+80            android:name="com.daleelpackage.myapp.signinorup.MainActivity"
+80-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:64:13-52
+81            android:screenOrientation="nosensor" />
+81-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:65:13-49
+82        <activity
+82-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:66:9-69:48
+83            android:name="com.facebook.FacebookActivity"
+83-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:67:13-57
+84            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+84-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:68:13-96
+85            android:label="@string/app_name"
+85-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:69:13-45
+86            android:theme="@style/com_facebook_activity_theme" />
+86-->[com.facebook.android:facebook-common:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e1b53c70d94c90025b3a63460070417f\jetified-facebook-common-7.0.0\AndroidManifest.xml:33:13-63
+87        <activity
+87-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:70:9-81:20
+88            android:name="com.facebook.CustomTabActivity"
+88-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:71:13-58
+89            android:exported="true" >
+89-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:72:13-36
+90            <intent-filter>
+90-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:73:13-80:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:74:17-69
+91-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:74:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:76:17-76
+93-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:76:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:77:17-78
+94-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:77:27-75
+95
+96                <data android:scheme="@string/fb_login_protocol_scheme" />
+96-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:79:17-75
+96-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:79:23-72
+97            </intent-filter>
+98            <intent-filter>
+98-->[com.facebook.android:facebook-common:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e1b53c70d94c90025b3a63460070417f\jetified-facebook-common-7.0.0\AndroidManifest.xml:39:13-48:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:74:17-69
+99-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:74:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:76:17-76
+101-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:76:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:77:17-78
+102-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:77:27-75
+103
+104                <data
+104-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:79:17-75
+105                    android:host="cct.com.daleelpackage.myapp"
+106                    android:scheme="fbconnect" />
+106-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:79:23-72
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:82:9-93:20
+110            android:name="com.daleelpackage.myapp.home.HomeActivity"
+110-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:83:13-46
+111            android:screenOrientation="nosensor"
+111-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:84:13-49
+112            android:theme="@style/AppTheme.NoActionBar"
+112-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:85:13-56
+113            android:uiOptions="splitActionBarWhenNarrow"
+113-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:86:13-57
+114            android:windowSoftInputMode="adjustPan" >
+114-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:87:13-52
+115            <intent-filter>
+115-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:88:13-92:29
+116                <action android:name="android.intent.action.SEND" />
+116-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:89:17-69
+116-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:89:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:76:17-76
+118-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:76:27-73
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:94:9-102:20
+122            android:name="com.daleelpackage.myapp.Search.SearchActivity"
+122-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:95:13-50
+123            android:screenOrientation="nosensor"
+123-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:96:13-49
+124            android:theme="@style/AppTheme.NoActionBar"
+124-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:97:13-56
+125            android:windowSoftInputMode="adjustPan" >
+125-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:98:13-52
+126            <meta-data
+126-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+127                android:name="android.support.PARENT_ACTIVITY"
+127-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+128                android:value="com.daleelpackage.myapp.home.HomeActivity" />
+128-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+129        </activity>
+130        <activity
+130-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:103:9-110:20
+131            android:name="com.daleelpackage.myapp.messages.Message"
+131-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:104:13-45
+132            android:screenOrientation="nosensor"
+132-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:105:13-49
+133            android:theme="@style/AppTheme.NoActionBar" >
+133-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:106:13-56
+134            <meta-data
+134-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+135                android:name="android.support.PARENT_ACTIVITY"
+135-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+136                android:value="com.daleelpackage.myapp.home.HomeActivity" />
+136-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+137        </activity>
+138        <activity
+138-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:111:9-119:20
+139            android:name="com.daleelpackage.myapp.messages.ChatActivity"
+139-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:112:13-50
+140            android:parentActivityName="com.daleelpackage.myapp.messages.Message"
+140-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:113:13-59
+141            android:screenOrientation="nosensor"
+141-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:114:13-49
+142            android:theme="@style/AppTheme.NoActionBar" >
+142-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:115:13-56
+143            <meta-data
+143-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+144                android:name="android.support.PARENT_ACTIVITY"
+144-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+145                android:value="com.daleelpackage.myapp.messages.Message" />
+145-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+146        </activity>
+147        <activity
+147-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:120:9-128:20
+148            android:name="com.daleelpackage.myapp.home.AddNewAdPost"
+148-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:121:13-46
+149            android:parentActivityName="com.daleelpackage.myapp.home.HomeActivity"
+149-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:122:13-60
+150            android:screenOrientation="nosensor"
+150-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:123:13-49
+151            android:theme="@style/AppTheme.NoActionBar" >
+151-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:124:13-56
+152            <meta-data
+152-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+153                android:name="android.support.PARENT_ACTIVITY"
+153-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+154                android:value="com.daleelpackage.myapp.home.HomeActivity" />
+154-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+155        </activity>
+156        <activity
+156-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:129:9-137:20
+157            android:name="com.daleelpackage.myapp.home.EditAdPost"
+157-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:130:13-44
+158            android:parentActivityName="com.daleelpackage.myapp.home.HomeActivity"
+158-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:131:13-60
+159            android:screenOrientation="nosensor"
+159-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:132:13-49
+160            android:theme="@style/AppTheme.NoActionBar" >
+160-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:133:13-56
+161            <meta-data
+161-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+162                android:name="android.support.PARENT_ACTIVITY"
+162-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+163                android:value="com.daleelpackage.myapp.home.HomeActivity" />
+163-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+164        </activity>
+165        <activity
+165-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:138:9-141:72
+166            android:name="com.daleelpackage.myapp.packages.Thankyou"
+166-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:139:13-46
+167            android:screenOrientation="nosensor"
+167-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:140:13-49
+168            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+168-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:141:13-69
+169        <activity
+169-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:142:9-151:20
+170            android:name="com.daleelpackage.myapp.ad_detail.Ad_detail_activity"
+170-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:143:13-57
+171            android:parentActivityName="com.daleelpackage.myapp.home.HomeActivity"
+171-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:144:13-60
+172            android:screenOrientation="nosensor"
+172-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:145:13-49
+173            android:theme="@style/AppTheme.NoActionBar"
+173-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:146:13-56
+174            android:windowSoftInputMode="adjustPan" >
+174-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:147:13-52
+175            <meta-data
+175-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+176                android:name="android.support.PARENT_ACTIVITY"
+176-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+177                android:value="com.daleelpackage.myapp.home.HomeActivity" />
+177-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+178        </activity>
+179        <activity
+179-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:152:9-154:52
+180            android:name="com.daleelpackage.myapp.packages.StripePayment"
+180-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:153:13-51
+181            android:screenOrientation="nosensor" />
+181-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:154:13-49
+182        <activity
+182-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:155:9-157:52
+183            android:name="com.daleelpackage.myapp.packages.InAppPurchaseActivity"
+183-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:156:13-59
+184            android:screenOrientation="nosensor" />
+184-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:157:13-49
+185        <activity
+185-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:158:9-166:20
+186            android:name="com.daleelpackage.myapp.Shop.shopActivity"
+186-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:159:13-46
+187            android:screenOrientation="nosensor"
+187-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:160:13-49
+188            android:theme="@style/AppTheme.NoActionBar"
+188-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:161:13-56
+189            android:windowSoftInputMode="adjustPan" >
+189-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:162:13-52
+190            <meta-data
+190-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+191                android:name="android.support.PARENT_ACTIVITY"
+191-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+192                android:value="com.daleelpackage.myapp.home.HomeActivity" />
+192-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+193        </activity>
+194        <activity
+194-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:167:9-173:20
+195            android:name="com.daleelpackage.myapp.Settings.Settings"
+195-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:168:13-46
+196            android:screenOrientation="nosensor" >
+196-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:169:13-49
+197            <meta-data
+197-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:99:13-101:77
+198                android:name="android.support.PARENT_ACTIVITY"
+198-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:100:17-63
+199                android:value="com.daleelpackage.myapp.home.HomeActivity" />
+199-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:101:17-74
+200        </activity>
+201        <activity
+201-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:174:9-177:72
+202            android:name="com.daleelpackage.myapp.ad_detail.full_screen_image.FullScreenViewActivity"
+202-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:175:13-79
+203            android:screenOrientation="nosensor"
+203-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:176:13-49
+204            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+204-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:177:13-69
+205        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+205-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:178:9-84
+205-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:178:19-81
+206        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+206-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:179:9-82
+206-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:179:19-79
+207        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+207-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:180:9-90
+207-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:180:19-87
+208        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" /> <!-- Full screen image Viewer -->
+208-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:181:9-91
+208-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:181:19-88
+209        <meta-data
+209-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:182:9-184:52
+210            android:name="com.google.android.gms.ads.APPLICATION_ID"
+210-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:183:13-69
+211            android:value="@string/Admob_app_id" /> <!-- Google Analytcis -->
+211-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:184:13-49
+212        <meta-data
+212-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:185:9-187:69
+213            android:name="com.google.android.gms.version"
+213-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:186:13-58
+214            android:value="@integer/google_play_services_version" />
+214-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:187:13-66
+215        <meta-data
+215-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:188:9-190:71
+216            android:name="com.google.android.geo.API_KEY"
+216-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:189:13-58
+217            android:value="AIzaSyCe9Y9ajcXSjus__V9wpWK2fxq7-B0qM-w" />
+217-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:190:13-68
+218        <meta-data
+218-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:191:9-193:55
+219            android:name="com.facebook.sdk.ApplicationId"
+219-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:192:13-58
+220            android:value="@string/facebook_app_id" />
+220-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:193:13-52
+221
+222        <receiver
+222-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:195:9-201:20
+223            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+223-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:196:13-78
+224            android:enabled="true"
+224-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:197:13-35
+225            android:exported="false" >
+225-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:33:13-37
+226            <intent-filter>
+226-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:198:13-200:29
+227                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+227-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:199:17-94
+227-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:199:25-91
+228            </intent-filter>
+229        </receiver> <!-- Google Analytics -->
+230        <!-- Firebase Notifications -->
+231        <receiver
+231-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:203:9-209:20
+232            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+232-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:204:13-85
+233            android:exported="true" >
+233-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:205:13-36
+234            <intent-filter>
+234-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:206:13-208:29
+235                <action android:name="com.android.vending.INSTALL_REFERRER" />
+235-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:207:17-79
+235-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:207:25-76
+236            </intent-filter>
+237        </receiver> <!-- <service -->
+238        <!-- android:name=".Notification.MyFirebaseInstanceIDService" -->
+239        <!-- &gt; -->
+240        <!-- <intent-filter> -->
+241        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT"/> -->
+242        <!-- </intent-filter> -->
+243        <!-- </service> &lt;!&ndash; ./Firebase Notifications &ndash;&gt; -->
+244        <!-- PayPal -->
+245        <receiver android:name="com.daleelpackage.myapp.utills.NoInternet.NetwordStateManager" >
+245-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:217:9-222:20
+245-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:217:19-72
+246            <intent-filter>
+246-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:218:13-221:29
+247                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+247-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:219:17-79
+247-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:219:25-76
+248                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+248-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:220:17-78
+248-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:220:25-75
+249            </intent-filter>
+250        </receiver>
+251
+252        <service
+252-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:224:9-227:40
+253            android:name="com.google.android.gms.analytics.AnalyticsService"
+253-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:225:13-77
+254            android:enabled="true"
+254-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:226:13-35
+255            android:exported="false" />
+255-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:227:13-37
+256        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+256-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:228:9-92
+256-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:228:18-89
+257        <service
+257-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:229:9-235:19
+258            android:name="com.daleelpackage.myapp.Notification.MyFirebaseMessagingService"
+258-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:230:13-68
+259            android:exported="false" >
+259-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:231:13-37
+260            <intent-filter>
+260-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:232:13-234:29
+261                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+261-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:233:17-78
+261-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:233:25-75
+262            </intent-filter>
+263        </service>
+264        <service
+264-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:236:9-238:40
+265            android:name="com.paypal.android.sdk.payments.PayPalService"
+265-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:237:13-73
+266            android:exported="false" /> <!-- <activity -->
+266-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:238:13-37
+267        <!-- android:name="io.card.payment.CardIOActivity" -->
+268        <!-- android:configChanges="keyboardHidden|orientation" /> -->
+269        <!-- <activity android:name="io.card.payment.DataEntryActivity" /> -->
+270        <!-- PayPal -->
+271        <uses-library
+271-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:243:9-245:40
+272            android:name="org.apache.http.legacy"
+272-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:244:13-50
+273            android:required="false" />
+273-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:245:13-37
+274
+275        <provider
+276            android:name="androidx.core.content.FileProvider"
+276-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:248:13-62
+277            android:authorities="com.daleelpackage.myapp.provider"
+277-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:249:13-60
+278            android:exported="false"
+278-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:250:13-37
+279            android:grantUriPermissions="true" >
+279-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:251:13-47
+280
+281            <!-- &lt;!&ndash;            <meta-data&ndash;&gt; -->
+282            <!-- &lt;!&ndash;                android:name="android.support.FILE_PROVIDER_PATHS"&ndash;&gt; -->
+283            <!-- &lt;!&ndash;                android:resource="@xml/provider_paths" />&ndash;&gt; -->
+284            <meta-data
+284-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:27:13-29:54
+285                android:name="android.support.FILE_PROVIDER_PATHS"
+285-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:28:17-67
+286                android:resource="@xml/file_paths" />
+286-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:29:17-51
+287        </provider>
+288
+289        <activity
+289-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:10:9-14:68
+290            android:name="com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.PlaceAutocompleteActivity"
+290-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:11:13-105
+291            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+291-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:12:13-122
+292            android:theme="@style/mapbox_plugins_translucent"
+292-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:13:13-62
+293            android:windowSoftInputMode="stateVisible|adjustPan" />
+293-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:14:13-65
+294        <activity
+294-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:15:9-17:125
+295            android:name="com.mapbox.mapboxsdk.plugins.places.picker.ui.PlacePickerActivity"
+295-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:16:13-93
+296            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+296-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\ca99207c47ce29a373f4bd16d98a7608\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:17:13-122
+297        <activity android:name="com.facebook.CustomTabMainActivity" />
+297-->[com.facebook.android:facebook-common:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e1b53c70d94c90025b3a63460070417f\jetified-facebook-common-7.0.0\AndroidManifest.xml:34:9-71
+297-->[com.facebook.android:facebook-common:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e1b53c70d94c90025b3a63460070417f\jetified-facebook-common-7.0.0\AndroidManifest.xml:34:19-68
+298        <activity
+298-->[com.google.android.libraries.places:places:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a1ff64b59e61da1bebf2bb7e4a9ef62\jetified-places-2.1.0\AndroidManifest.xml:14:9-20:20
+299            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+299-->[com.google.android.libraries.places:places:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a1ff64b59e61da1bebf2bb7e4a9ef62\jetified-places-2.1.0\AndroidManifest.xml:15:13-91
+300            android:exported="false"
+300-->[com.google.android.libraries.places:places:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a1ff64b59e61da1bebf2bb7e4a9ef62\jetified-places-2.1.0\AndroidManifest.xml:16:13-37
+301            android:label="@string/places_autocomplete_label"
+301-->[com.google.android.libraries.places:places:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a1ff64b59e61da1bebf2bb7e4a9ef62\jetified-places-2.1.0\AndroidManifest.xml:17:13-62
+302            android:theme="@style/PlacesAutocompleteOverlay"
+302-->[com.google.android.libraries.places:places:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a1ff64b59e61da1bebf2bb7e4a9ef62\jetified-places-2.1.0\AndroidManifest.xml:18:13-61
+303            android:windowSoftInputMode="adjustResize" >
+303-->[com.google.android.libraries.places:places:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a1ff64b59e61da1bebf2bb7e4a9ef62\jetified-places-2.1.0\AndroidManifest.xml:19:13-55
+304        </activity>
+305        <activity
+305-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
+306            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+306-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
+307            android:theme="@style/bt_three_d_secure_theme" />
+307-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
+308        <activity
+308-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
+309            android:name="com.braintreepayments.api.dropin.DropInActivity"
+309-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
+310            android:theme="@style/bt_drop_in_activity_theme" />
+310-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
+311        <activity
+311-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
+312            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+312-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
+313            android:theme="@style/bt_add_card_activity_theme" />
+313-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
+314        <activity
+314-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
+315            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+315-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
+316            android:theme="@style/bt_vault_manager_activity_theme" />
+316-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\f47e5657815f2fa938dc8d986d37e358\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
+317        <activity
+317-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:17:9-20:47
+318            android:name="com.opensooq.supernova.gligar.ui.ImagePickerActivity"
+318-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:18:13-80
+319            android:screenOrientation="portrait"
+319-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:19:13-49
+320            android:theme="@style/LibTheme" />
+320-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:20:13-44
+321        <activity
+321-->[com.fxn769:pix:1.4.4] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e53928f9d66ab3c2e05d5c137d2b93fa\jetified-pix-1.4.4\AndroidManifest.xml:19:9-22:52
+322            android:name="com.fxn.pix.Pix"
+322-->[com.fxn769:pix:1.4.4] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e53928f9d66ab3c2e05d5c137d2b93fa\jetified-pix-1.4.4\AndroidManifest.xml:20:13-43
+323            android:noHistory="true"
+323-->[com.fxn769:pix:1.4.4] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e53928f9d66ab3c2e05d5c137d2b93fa\jetified-pix-1.4.4\AndroidManifest.xml:21:13-37
+324            android:screenOrientation="portrait" />
+324-->[com.fxn769:pix:1.4.4] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\e53928f9d66ab3c2e05d5c137d2b93fa\jetified-pix-1.4.4\AndroidManifest.xml:22:13-49
+325        <activity
+325-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:12:9-16:20
+326            android:name="com.stripe.android.view.AddSourceActivity"
+326-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:13:13-69
+327            android:theme="@style/StripeDefaultTheme"
+327-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:14:13-54
+328            android:windowSoftInputMode="stateVisible" >
+328-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:15:13-55
+329        </activity>
+330        <activity
+330-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:17:9-20:20
+331            android:name="com.stripe.android.view.PaymentMethodsActivity"
+331-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:18:13-74
+332            android:theme="@style/StripeDefaultTheme" >
+332-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:19:13-54
+333        </activity>
+334        <activity
+334-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:21:9-24:20
+335            android:name="com.stripe.android.view.PaymentFlowActivity"
+335-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:22:13-71
+336            android:theme="@style/StripeDefaultTheme" >
+336-->[com.stripe:stripe-android:6.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\289ac5e92c3d1df09ce0c341bf22d67b\jetified-stripe-android-6.1.2\AndroidManifest.xml:23:13-54
+337        </activity>
+338        <activity
+338-->[com.karumi:dexter:5.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\8fbc81a3848809c9190e9d743450c60a\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+339            android:name="com.karumi.dexter.DexterActivity"
+339-->[com.karumi:dexter:5.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\8fbc81a3848809c9190e9d743450c60a\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+340            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+340-->[com.karumi:dexter:5.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\8fbc81a3848809c9190e9d743450c60a\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+341        <activity
+341-->[lk.payhere.sdk:android-payment-sdk:1.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\dfd4ebe11502b565cddcf0fad2a60c7f\jetified-android-payment-sdk-1.0.0\AndroidManifest.xml:18:9-21:20
+342            android:name="lk.payhere.androidsdk.PHMainActivity"
+342-->[lk.payhere.sdk:android-payment-sdk:1.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\dfd4ebe11502b565cddcf0fad2a60c7f\jetified-android-payment-sdk-1.0.0\AndroidManifest.xml:19:13-64
+343            android:theme="@style/ph_transparent.windowTitle" >
+343-->[lk.payhere.sdk:android-payment-sdk:1.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\dfd4ebe11502b565cddcf0fad2a60c7f\jetified-android-payment-sdk-1.0.0\AndroidManifest.xml:20:13-62
+344        </activity>
+345        <activity
+345-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+346            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+346-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+347            android:excludeFromRecents="true"
+347-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+348            android:exported="false"
+348-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+349            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+349-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+350        <!--
+351            Service handling Google Sign-In user revocation. For apps that do not integrate with
+352            Google Sign-In, this service will never be started.
+353        -->
+354        <service
+354-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+355            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+355-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+356            android:exported="true"
+356-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+357            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+357-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d4dca71fd89d06c5aa3581e65d07446a\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+358        <service
+358-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:40:9-44:72
+359            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+359-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:41:13-80
+360            android:enabled="true"
+360-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:42:13-35
+361            android:exported="false"
+361-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:43:13-37
+362            android:permission="android.permission.BIND_JOB_SERVICE" />
+362-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a084b9ad3059b34afd322eaa905df999\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:44:13-69
+363        <!--
+364             FirebaseMessagingService performs security checks at runtime,
+365             but set to not exported to explicitly avoid allowing another app to call it.
+366        -->
+367        <service
+367-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:28:9-35:19
+368            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+368-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:29:13-82
+369            android:directBootAware="true"
+369-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:30:13-43
+370            android:exported="false" >
+370-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:31:13-37
+371            <intent-filter android:priority="-500" >
+371-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:232:13-234:29
+372                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+372-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:233:17-78
+372-->D:\androidprojects\already project\New folder\Daleel_Al_Jahra\Daleel_Al_Jahra\app\src\main\AndroidManifest.xml:233:25-75
+373            </intent-filter>
+374        </service>
+375        <service
+375-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:36:9-42:19
+376            android:name="com.google.firebase.components.ComponentDiscoveryService"
+376-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:37:13-84
+377            android:directBootAware="true"
+377-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+378            android:exported="false" >
+378-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:38:13-37
+379            <meta-data
+379-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:39:13-41:85
+380                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+380-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:40:17-119
+381                android:value="com.google.firebase.components.ComponentRegistrar" />
+381-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\80bc1bdc4dc17db2770fb8747704114a\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:41:17-82
+382            <meta-data
+382-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\c9df76649a9db100c7ddf43e01e7b4b4\jetified-firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+383                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+383-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\c9df76649a9db100c7ddf43e01e7b4b4\jetified-firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+384                android:value="com.google.firebase.components.ComponentRegistrar" />
+384-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\c9df76649a9db100c7ddf43e01e7b4b4\jetified-firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+385            <meta-data
+385-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\949c9ec08a264c168dbf42a6d9ccc184\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+386                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+386-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\949c9ec08a264c168dbf42a6d9ccc184\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+387                android:value="com.google.firebase.components.ComponentRegistrar" />
+387-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\949c9ec08a264c168dbf42a6d9ccc184\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+388            <meta-data
+388-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:32:13-34:85
+389                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+389-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:33:17-96
+390                android:value="com.google.firebase.components.ComponentRegistrar" />
+390-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:34:17-82
+391            <meta-data
+391-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\992b3ac4158bfaef59d090f2c4111eec\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+392                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+392-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\992b3ac4158bfaef59d090f2c4111eec\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+393                android:value="com.google.firebase.components.ComponentRegistrar" />
+393-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\992b3ac4158bfaef59d090f2c4111eec\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+394            <meta-data
+394-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a2fceaea2198752e3a0017afd4e43077\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+395                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+395-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a2fceaea2198752e3a0017afd4e43077\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+396                android:value="com.google.firebase.components.ComponentRegistrar" />
+396-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\a2fceaea2198752e3a0017afd4e43077\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+397        </service>
+398
+399        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+399-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:17:9-96
+399-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:17:19-93
+400        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+400-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:18:9-97
+400-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:18:19-94
+401        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+401-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:19:9-94
+401-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:19:19-91
+402        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+402-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:20:9-97
+402-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:20:19-94
+403        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+403-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:21:9-98
+403-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9057548172d1c65b4e1568df77425736\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:21:19-95
+404
+405        <provider
+405-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
+406            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+406-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
+407            android:authorities="com.daleelpackage.myapp.mapboxtelemetryinitprovider"
+407-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
+408            android:exported="false"
+408-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
+409            android:initOrder="100" />
+409-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+410
+411        <service
+411-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
+412            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+412-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
+413            android:permission="android.permission.BIND_JOB_SERVICE" />
+413-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\7b1230d0dae4ddf2225de55665b202aa\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
+414        <service
+414-->[net.authorize:accept-sdk-android:1.0.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\010f632e77ded1736f33326614d8b9cf\jetified-accept-sdk-android-1.0.2\AndroidManifest.xml:19:9-21:40
+415            android:name="net.authorize.acceptsdk.network.AcceptService"
+415-->[net.authorize:accept-sdk-android:1.0.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\010f632e77ded1736f33326614d8b9cf\jetified-accept-sdk-android-1.0.2\AndroidManifest.xml:20:13-73
+416            android:exported="false" />
+416-->[net.authorize:accept-sdk-android:1.0.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\010f632e77ded1736f33326614d8b9cf\jetified-accept-sdk-android-1.0.2\AndroidManifest.xml:21:13-37
+417
+418        <activity
+418-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:17:9-19:62
+419            android:name="droidninja.filepicker.FilePickerActivity"
+419-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:18:13-68
+420            android:configChanges="orientation|screenSize" />
+420-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:19:13-59
+421        <activity
+421-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:20:9-22:62
+422            android:name="droidninja.filepicker.MediaDetailsActivity"
+422-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:21:13-70
+423            android:configChanges="orientation|screenSize" />
+423-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:22:13-59
+424
+425        <provider
+425-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:24:9-32:20
+426            android:name="droidninja.filepicker.utils.FilePickerProvider"
+426-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:25:13-74
+427            android:authorities="com.daleelpackage.myapp.droidninja.filepicker.provider"
+427-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:26:13-82
+428            android:exported="false"
+428-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:27:13-37
+429            android:grantUriPermissions="true" >
+429-->[com.droidninja:filepicker:2.1.2] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\3f76abf926aa25063f694eab156b6f92\jetified-filepicker-2.1.2\AndroidManifest.xml:28:13-47
+430            <meta-data
+430-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:27:13-29:54
+431                android:name="android.support.FILE_PROVIDER_PATHS"
+431-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:28:17-67
+432                android:resource="@xml/provider_paths" />
+432-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\fcc98e4c8ccf1f4e5e32936ee1b31b56\jetified-gligar-1.1.0\AndroidManifest.xml:29:17-51
+433        </provider>
+434
+435        <activity
+435-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
+436            android:name="com.braintreepayments.api.AndroidPayActivity"
+436-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
+437            android:theme="@style/bt_transparent_activity" />
+437-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
+438        <activity
+438-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
+439            android:name="com.braintreepayments.api.GooglePaymentActivity"
+439-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
+440            android:theme="@style/bt_transparent_activity" />
+440-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
+441
+442        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+442-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
+442-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\9a4bcb3268a3a13fefc2e51067112f11\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
+443        <!--
+444         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+445         with the application context. This config is merged in with the host app's manifest,
+446         but there can only be one provider with the same authority activated at any given
+447         point; so if the end user has two or more different apps that use Facebook SDK, only the
+448         first one will be able to use the provider. To work around this problem, we use the
+449         following placeholder in the authority to identify each host application as if it was
+450         a completely different provider.
+451        -->
+452        <provider
+452-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:39:9-42:40
+453            android:name="com.facebook.internal.FacebookInitProvider"
+453-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:40:13-70
+454            android:authorities="com.daleelpackage.myapp.FacebookInitProvider"
+454-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:41:13-72
+455            android:exported="false" />
+455-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:42:13-37
+456
+457        <receiver
+457-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:44:9-50:20
+458            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+458-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:45:13-86
+459            android:exported="false" >
+459-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:46:13-37
+460            <intent-filter>
+460-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:47:13-49:29
+461                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+461-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:48:17-95
+461-->[com.facebook.android:facebook-core:7.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\27750d32441997522a8eca4e6ee3bef9\jetified-facebook-core-7.0.0\AndroidManifest.xml:48:25-92
+462            </intent-filter>
+463        </receiver>
+464        <receiver
+464-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:37:9-44:20
+465            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+465-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:38:13-78
+466            android:exported="true"
+466-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:39:13-36
+467            android:permission="com.google.android.c2dm.permission.SEND" >
+467-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:40:13-73
+468            <intent-filter>
+468-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:41:13-43:29
+469                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+469-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:42:17-81
+469-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\77fa38943cd73dbc9ba066e2dc1eda7e\jetified-firebase-iid-20.2.1\AndroidManifest.xml:42:25-78
+470            </intent-filter>
+471        </receiver>
+472        <receiver
+472-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+473            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+473-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+474            android:enabled="true"
+474-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+475            android:exported="false" >
+475-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+476        </receiver>
+477
+478        <service
+478-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+479            android:name="com.google.android.gms.measurement.AppMeasurementService"
+479-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+480            android:enabled="true"
+480-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+481            android:exported="false" />
+481-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+482        <service
+482-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+483            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+483-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+484            android:enabled="true"
+484-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+485            android:exported="false"
+485-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+486            android:permission="android.permission.BIND_JOB_SERVICE" />
+486-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\25936444c57341204c8c1a8dafd2bed1\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+487
+488        <activity
+488-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+489            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+489-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+490            android:exported="false"
+490-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+491            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+491-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+492
+493        <provider
+493-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+494            android:name="com.google.firebase.provider.FirebaseInitProvider"
+494-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+495            android:authorities="com.daleelpackage.myapp.firebaseinitprovider"
+495-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+496            android:exported="false"
+496-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+497            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+497-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+498        <activity
+498-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:29:9-33:64
+499            android:name="com.google.android.gms.ads.AdActivity"
+499-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:30:13-65
+500            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+500-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:31:13-122
+501            android:exported="false"
+501-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:32:13-37
+502            android:theme="@android:style/Theme.Translucent" />
+502-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:33:13-61
+503
+504        <provider
+504-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:35:9-39:39
+505            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+505-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:36:13-76
+506            android:authorities="com.daleelpackage.myapp.mobileadsinitprovider"
+506-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:37:13-73
+507            android:exported="false"
+507-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:38:13-37
+508            android:initOrder="100" />
+508-->[com.google.android.gms:play-services-ads-lite:18.0.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4bf70dab392c8e255d90233d78f7fe90\jetified-play-services-ads-lite-18.0.0\AndroidManifest.xml:39:13-36
+509        <provider
+509-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d8764d841e4462bf3286dd4c24914de4\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+510            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+510-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d8764d841e4462bf3286dd4c24914de4\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+511            android:authorities="com.daleelpackage.myapp.lifecycle-process"
+511-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d8764d841e4462bf3286dd4c24914de4\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+512            android:exported="false"
+512-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d8764d841e4462bf3286dd4c24914de4\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+513            android:multiprocess="true" />
+513-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\d8764d841e4462bf3286dd4c24914de4\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+514
+515        <service
+515-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\01bf1086c1b8bd8b6dfda70d2551b4b6\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+516            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+516-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\01bf1086c1b8bd8b6dfda70d2551b4b6\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+517            android:exported="false" >
+517-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\01bf1086c1b8bd8b6dfda70d2551b4b6\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+518            <meta-data
+518-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\01bf1086c1b8bd8b6dfda70d2551b4b6\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+519                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+519-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\01bf1086c1b8bd8b6dfda70d2551b4b6\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+520                android:value="cct" />
+520-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\01bf1086c1b8bd8b6dfda70d2551b4b6\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+521        </service>
+522        <service
+522-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\45f273643a6419c00f7f25e983f537c8\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+523            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+523-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\45f273643a6419c00f7f25e983f537c8\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+524            android:exported="false"
+524-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\45f273643a6419c00f7f25e983f537c8\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+525            android:permission="android.permission.BIND_JOB_SERVICE" >
+525-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\45f273643a6419c00f7f25e983f537c8\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+526        </service>
+527
+528        <receiver
+528-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\45f273643a6419c00f7f25e983f537c8\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+529            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+529-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\45f273643a6419c00f7f25e983f537c8\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+530            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+530-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\45f273643a6419c00f7f25e983f537c8\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+531        <activity
+531-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:8:5-271
+532            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+532-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:8:15-102
+533            android:enabled="false"
+533-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:8:103-126
+534            android:exported="false"
+534-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:8:127-151
+535            android:launchMode="singleInstance"
+535-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:8:204-239
+536            android:process=":playcore_missing_splits_activity"
+536-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:8:152-203
+537            android:stateNotNeeded="true" />
+537-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:8:240-269
+538        <activity
+538-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:9:5-278
+539            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+539-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:9:15-95
+540            android:enabled="false"
+540-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:9:96-119
+541            android:exported="false"
+541-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:9:120-144
+542            android:process=":playcore_dialog_wrapper_activity"
+542-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:9:175-226
+543            android:stateNotNeeded="true"
+543-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:9:145-174
+544            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+544-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:9:227-276
+545        <service
+545-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:12:5-145
+546            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+546-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:12:14-95
+547            android:enabled="false"
+547-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:12:96-119
+548            android:exported="true" />
+548-->[com.google.android.play:core:1.7.0] C:\Users\Mr Code\.gradle\caches\transforms-2\files-2.1\4419fa4879a99b6bbbdb72e38e432e3a\jetified-core-1.7.0\AndroidManifest.xml:12:120-143
+549    </application>
+550
+551</manifest>
