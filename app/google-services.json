@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "1024034772143-1dig65j782s328gqpa59l72vdgvh06be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daleelpackage.myapp",
+            "certificate_hash": "71cffc58df33a5cd8f259d5f28617cd235439764"
+          }
+        },
+        {
+          "client_id": "1024034772143-l5nt0v0ul5hf9d2in3483e4rgn16kni0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daleelpackage.myapp",
+            "certificate_hash": "d36934adbf6eec9b412cebffdf5076098487d49f"
+          }
+        },
+        {
           "client_id": "1024034772143-nkfstk3rjfthmlsbd9lpilkmk86gcsj6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
